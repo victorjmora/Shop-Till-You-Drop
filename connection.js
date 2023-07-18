@@ -1,6 +1,6 @@
-require('dotenv').config();
+require('./Develop/Shop-Till-You-Drop/node_modules/dotenv/types').config();
 
-const Sequelize = require('sequelize');
+const Sequelize = require('./Develop/Shop-Till-You-Drop/node_modules/sequelize/types');
 
 const sequelize = process.env.JAWSDB_URL
   ? new Sequelize(process.env.JAWSDB_URL)
